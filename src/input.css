@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+
+.nav-link span {
+  @apply text-blue-400 text-xl px-4;
+}
+.icons {
+  @apply flex items-center gap-3;
+}
+@tailwind utilities;
